@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Sai Stationers & Suppliers - Premium Stationery Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-pen-fancy"></i>
+                    <span>Shri Sai Stationers</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Shri Sai Stationers</h1>
+            <p class="hero-subtitle">Your One-Stop Shop for Premium Stationery & Office Supplies</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('products')">Shop Now</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Visit Us</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-img-placeholder">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Serving Pune with Quality & Excellence</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Premium Quality Stationery</h3>
+                    <p>We provide all types of school materials and office stationery at reasonable prices. With over a decade of experience, Shri Sai Stationers has become the trusted name for quality stationery in Pune.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality Assurance</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Staff</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <p>Everything You Need for School & Office</p>
+            </div>
+            <div class="products-grid">
+                <!-- Notebooks -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Notebooks</h3>
+                        <p>All branded notebooks including:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Half Scape</li>
+                            <li><i class="fas fa-check"></i> Full Scape</li>
+                            <li><i class="fas fa-check"></i> A5 Size</li>
+                            <li><i class="fas fa-check"></i> A4 Size</li>
+                        </ul>
+                        <span class="badge">Best Sellers</span>
+                    </div>
+                </div>
+
+                <!-- Drawing Books -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Art & Drawing Books</h3>
+                        <p>Complete art supplies for creative minds:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Drawing Books</li>
+                            <li><i class="fas fa-check"></i> Sketch Pads</li>
+                            <li><i class="fas fa-check"></i> Cover Rolls</li>
+                            <li><i class="fas fa-check"></i> Quality Paper</li>
+                        </ul>
+                        <span class="badge">Art Supplies</span>
+                    </div>
+                </div>
+
+                <!-- Xerox & Printing -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Xerox & Printing</h3>
+                        <p>Professional copying and printing services:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Color Xerox</li>
+                            <li><i class="fas fa-check"></i> Black & White</li>
+                            <li><i class="fas fa-check"></i> Fast Service</li>
+                            <li><i class="fas fa-check"></i> Competitive Rates</li>
+                        </ul>
+                        <span class="badge">Services</span>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Refreshments</h3>
+                        <p>Stay refreshed while shopping:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Cold Drinks</li>
+                            <li><i class="fas fa-check"></i> Hot Beverages</li>
+                            <li><i class="fas fa-check"></i> Snacks</li>
+                            <li><i class="fas fa-check"></i> Quality Brands</li>
+                        </ul>
+                        <span class="badge">Beverages</span>
+                    </div>
+                </div>
+
+                <!-- Office Supplies -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Office Stationery</h3>
+                        <p>Professional office essentials:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Files & Folders</li>
+                            <li><i class="fas fa-check"></i> Pens & Pencils</li>
+                            <li><i class="fas fa-check"></i> Desk Accessories</li>
+                            <li><i class="fas fa-check"></i> Organizers</li>
+                        </ul>
+                        <span class="badge">Office</span>
+                    </div>
+                </div>
+
+                <!-- School Supplies -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>School Supplies</h3>
+                        <p>Everything students need:</p>
+                        <ul class="product-list">
+                            <li><i class="fas fa-check"></i> Textbooks</li>
+                            <li><i class="fas fa-check"></i> Workbooks</li>
+                            <li><i class="fas fa-check"></i> Writing Tools</li>
+                            <li><i class="fas fa-check"></i> Art Materials</li>
+                        </ul>
+                        <span class="badge">School</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Offers</h2>
+                <p>Amazing Deals Just for You!</p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">20% OFF</div>
+                    <h3>Notebooks Bundle</h3>
+                    <p>Buy any 3 notebooks and get 20% discount on all branded notebooks</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">15% OFF</div>
+                    <h3>Art Supplies</h3>
+                    <p>Complete art sets and drawing books with special discounts for students</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">FREE</div>
+                    <h3>Home Delivery</h3>
+                    <p>Free delivery on orders above ₹500. Book in advance and save more!</p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order Section -->
+    <section class="how-to-order">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Order</h2>
+                <p>Simple 3-Step Process</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Select & Browse</h3>
+                    <p>Browse through our wide range of products and select what you need</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Book Your Order</h3>
+                    <p>Call us or visit in person to book your order in advance</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Pay & Pick Up</h3>
+                    <p>Make payment and pick up your order at your convenient time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Visit Us Today</h2>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>790, Sadashiv Peth<br>
+                               Saikripa Building<br>
+                               Near Shanivar Ganesh Temple<br>
+                               Pune – 411030</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Contact</h4>
+                            <p><strong>Owner:</strong> Amit Chimbalkar<br>
+                               <strong>Mobile:</strong> <a href="tel:8793383227">8793383227</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 8:00 PM<br>
+                               Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="window.open('tel:8793383227')"><i class="fas fa-phone"></i> Call Now</button>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Your Phone" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Shri Sai Stationers</h4>
+                    <p>Your trusted stationery shop for quality products at affordable prices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#offers">Special Offers</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shri Sai Stationers & Suppliers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
